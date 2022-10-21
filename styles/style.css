@@ -1,0 +1,90 @@
+@import url(./reset.css);
+/* Main Nav */
+body > nav ul{
+    display: flex;
+    justify-content:
+    space-around;
+    background: #2c3e50;
+    order: 2;
+}
+
+body > nav li{
+    padding: 1em;
+}
+
+body > nav a{
+    text-decoration: none;
+    color: #f1c40f;
+}
+
+body > nav a:hover{
+    color: #f39c12;
+}
+
+/* HEADER */
+body > header {
+    height: 300px;/*1920x1080 px width x height */
+    background: url(../images/Jin\ Mu\ Won\ Grass.webp);
+    background-size: cover;
+    background-position:
+    top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ /*   gap: 1em;*/
+    color: #fff;/*#333 is black*/
+}
+body > header h1 {
+    font-size: 3.4em;
+}
+
+body > header h2 {
+    font-size: 2.1em;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background: #8e44ad;
+    color: #fff;
+}
+
+/*MAIN*/
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+     width: 200px;
+     padding: 1em;
+}
+
+article img {
+    width: 100%;
+}
+
+#content{
+    display: flex;
+}
+
+/* ASIDE*/
+aside{
+    width: 30%;
+    order: 1;
+}
+
+footer ul{
+     display: flex;
+     justify-content:
+     space-around;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 1em;
+}
